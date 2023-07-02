@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38">
+  <g id="Group_12" data-name="Group 12" transform="translate(-1138 -5253)">
+    <g id="Ellipse_8" data-name="Ellipse 8" transform="translate(1138 5253)" fill="none" stroke="#191919" stroke-width="1">
+      <circle cx="19" cy="19" r="19" stroke="none"/>
+      <circle cx="19" cy="19" r="18.5" fill="none"/>
+    </g>
+    <g id="insta" transform="translate(1149 5264)">
+      <g id="Group_7" data-name="Group 7" transform="translate(0 0)">
+        <path id="Path_23" data-name="Path 23" d="M429.008,214.8a.968.968,0,1,0,.969.968A.968.968,0,0,0,429.008,214.8Z" transform="translate(-416.376 -211.851)" fill="#191919"/>
+        <path id="Path_24" data-name="Path 24" d="M250.918,245.19a4.068,4.068,0,1,0,4.068,4.068A4.073,4.073,0,0,0,250.918,245.19Zm0,6.674a2.606,2.606,0,1,1,2.606-2.606A2.609,2.609,0,0,1,250.918,251.864Z" transform="translate(-242.591 -240.999)" fill="#191919"/>
+        <path id="Path_25" data-name="Path 25" d="M154.187,159.149h-6.595a4.967,4.967,0,0,1-4.962-4.962v-6.6a4.967,4.967,0,0,1,4.962-4.962h6.595a4.968,4.968,0,0,1,4.962,4.962v6.6A4.968,4.968,0,0,1,154.187,159.149Zm-6.595-14.965a3.411,3.411,0,0,0-3.408,3.408v6.6a3.411,3.411,0,0,0,3.408,3.408h6.595a3.412,3.412,0,0,0,3.408-3.408v-6.6a3.412,3.412,0,0,0-3.408-3.408Z" transform="translate(-142.63 -142.63)" fill="#191919"/>
+      </g>
+    </g>
+  </g>
+</svg>
