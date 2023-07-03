@@ -111,9 +111,15 @@
 }
 .nav-menu ul li {
   list-style: none;
+}
+.nav-menu ul li a {
   font-size: 16px;
   font-weight: 600;
+  text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
+
 
 .nav-btn1 {
   background-color: #e25926;
