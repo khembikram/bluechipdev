@@ -187,6 +187,7 @@
 .aboutus-body{
     font-size: 18px;
     font-family: "Lato", sans-serif;
+    width: 67%;
 }
 .aboutbtn{
     background-color: transparent;
@@ -254,6 +255,7 @@
     font-weight: bold;
     font-style: italic;
     color: #7a7a7a;
+    width: 62%;
 }
 
 .trust-img{
@@ -298,6 +300,7 @@
     font-weight: bold;
     font-style: italic;
     color: #7a7a7a;
+    width: 67%;
 }
 
 .empathy-img{
@@ -342,6 +345,7 @@
     font-weight: bold;
     font-style: italic;
     color: #7a7a7a;
+    width: 62%;
 }
 
 .exellence-img{
@@ -489,3 +493,109 @@
   }
   
   /* final foooter ends */
+
+  /* responsiveness */
+
+  @media(max-width:695px){
+    /* navigation responsive */
+    .nav-right{
+      flex-wrap: wrap;
+      gap: 0px;
+    }
+    .nav-menu{
+      display: none;
+    }
+
+    .nav-btn1{
+      display: none;
+    }
+    .hero-content {
+      font-size: 55px;
+    }
+    /* navigation responsive ends  */
+
+    .aboutimg{
+      height: 100%;
+      width: 100%;
+    }
+    .aboutus-body{
+      width: 100%;
+    }
+    .aboutus-top{
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .aboutus-bottom{
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .turst-insider{
+      flex-direction: column;
+      gap: 20px;
+    }
+    .trust-content{
+      width: 100%;
+    }
+    .trust-left-inner{
+      padding-left: 5%;
+    }
+    .empathy-insider{
+      flex-direction: column-reverse;
+      gap: 20px;
+    }
+    .empathy-content{
+      width: 100%;
+    }
+    .empathy-left-inner{
+      padding-left: 5%;
+    }
+    .exellence-header{
+      font-size: 45px;
+    }
+    .exellence-content{
+      width: 100%;
+    }
+    .exellence-insider{
+      flex-direction: column;
+      gap: 20px;
+    }
+    .exellence-left-inner{
+      padding-left: 5%;
+    }
+
+
+
+    /* footer responsive starts  */
+    .final-footer-insider{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .footer-bottom{
+      flex-wrap: wrap;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .footer-top-right {
+      flex-wrap: wrap;
+    }
+    #email{
+      width: auto;
+      right: 0px ;
+    }
+    .footer-top{
+      flex-wrap: wrap;
+    }
+    .footer-top-right {
+      font-size: 32px;
+      width: auto;
+    }
+    .footer-top-left{
+      margin-top: 25px;
+    }
+    .footer-top-left-btn {
+      right: 72px;
+    }
+
+    /* footer responsive ends */
+
+  }

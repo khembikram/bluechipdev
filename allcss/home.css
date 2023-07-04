@@ -120,7 +120,6 @@
   text-decoration: none;
 }
 
-
 .nav-btn1 {
   background-color: #e25926;
   border: none;
@@ -128,6 +127,10 @@
   padding: 10px 20px;
   border-radius: 50px;
   font-size: 17px;
+}
+
+#faburger {
+  display: none;
 }
 
 /* nav section ends */
@@ -490,11 +493,11 @@
 /* testimonial carousel ends */
 
 /* our victories starts */
-.ourvictories{
+.ourvictories {
   background-color: #f7f7f5;
 }
 
-.ourvictories-insider{
+.ourvictories-insider {
   display: flex;
   width: 90%;
   margin: 0px auto;
@@ -503,28 +506,28 @@
   gap: 5%;
 }
 
-.ourvictories-right{
+.ourvictories-right {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 20px;
 }
 
-.ourvictories-subheader{
+.ourvictories-subheader {
   font-size: 15px;
   font-weight: 800;
   font-family: "Neris Thin";
   color: #e25926;
 }
 
-.ourvictories-header{
+.ourvictories-header {
   font-size: 50px;
   font-weight: 600;
   color: #303084;
   margin-bottom: 20px;
 }
 
-.ourvictories-btn1{
+.ourvictories-btn1 {
   color: #e25926;
   border-radius: 50px;
   border: 2px solid #e25926;
@@ -535,7 +538,7 @@
   font-weight: 600;
 }
 
-#ourvictoriesimg{
+#ourvictoriesimg {
   height: 400px;
   width: 450px;
 }
@@ -543,52 +546,52 @@
 /* our victories ends */
 
 /* offering section starts */
-.offering-insider{
+.offering-insider {
   width: 90%;
   margin: 0px auto;
   padding: 10% 0%;
   display: flex;
   justify-content: space-around;
 }
-.offeing-left{
+.offeing-left {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.offering-subheader{
+.offering-subheader {
   font-size: 18px;
   color: #e25926;
   font-family: "Neris Thin";
   font-weight: 600;
 }
-#offering-icons{
+#offering-icons {
   color: #e25926;
 }
-.offering-header{
+.offering-header {
   font-size: 50px;
   font-weight: bold;
   color: #303084;
   width: 60%;
 }
-.offering-content-1{
+.offering-content-1 {
   font-style: italic;
   font-weight: bold;
   font-size: 18px;
   width: 60%;
 }
 
-.offering-content-2{
+.offering-content-2 {
   font-size: 18px;
   width: 57%;
 }
 
-.offering-list{
+.offering-list {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.offering-list li{
+.offering-list li {
   list-style: none;
   font-family: "Neris Thin";
   font-weight: 600;
@@ -596,8 +599,7 @@
   gap: 10px;
 }
 
-
-.card1{
+.card1 {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -610,26 +612,27 @@
   height: 300px;
 }
 
-.offering-card-img{
+.offering-card-img {
   height: 80px;
 }
-.card-header{
+.card-header {
   font-size: 20px;
   font-family: "Lato", sans-serif;
   font-weight: 600;
 }
-.card-foot{
+.card-foot {
   font-size: 16px;
   color: #e25926;
   font-family: "Neris Light";
 }
 
-.offering-right-top,.offering-right-bottom{
+.offering-right-top,
+.offering-right-bottom {
   display: flex;
   gap: 20px;
 }
 
-.offering-right-cards{
+.offering-right-cards {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -638,21 +641,21 @@
 /* offering section ends */
 
 /* footer starts */
-.footer{
+.footer {
   background-color: #f8ebc9;
   padding: 5% 0%;
 }
-.footer-insider{
+.footer-insider {
   width: 90%;
   margin: 0px auto;
 }
 
-.footer-top{
+.footer-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.footer-top-right{
+.footer-top-right {
   color: #303084;
   font-size: 40px;
   font-weight: bold;
@@ -661,14 +664,14 @@
   gap: 40px;
 }
 
-#subscribe{
+#subscribe {
   height: 80px;
 }
 
-.footer-top-left{
+.footer-top-left {
   display: flex;
 }
-.footer-top-left-btn{
+.footer-top-left-btn {
   color: #ffffff;
   background-color: #303084;
   border-radius: 50px;
@@ -680,7 +683,7 @@
   font-size: 15px;
 }
 
-#email{
+#email {
   padding: 10px 30px;
   background-color: #ffffff;
   color: #555;
@@ -688,50 +691,52 @@
   border: none;
   width: 330px;
   border-radius: 50px 0px 0px 50px;
-  position:  relative;
+  position: relative;
   right: 177px;
   height: 41px;
   top: 0;
-  font-weight: 600 ;
+  font-weight: 600;
   font-size: 15px;
 }
 
-.footer-section1{
+.footer-section1 {
   font-family: "Lato", sans-serif;
   display: flex;
   flex-direction: column;
   gap: 9px;
 }
 
-.footer-bottom{
+.footer-bottom {
   display: flex;
   justify-content: space-between;
   margin-top: 10%;
 }
 
-.img-footer-header{
+.img-footer-header {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 15px;
 }
 
-.footer-name{
+.footer-name {
   font-size: 14px;
 }
-.footer-contact,.footer-mail,.footer-location{
+.footer-contact,
+.footer-mail,
+.footer-location {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-#footer-phone{
+#footer-phone {
   font-size: 12px;
 }
 
 /* footer ends */
 
 /* final footer starts  */
-.final-footer{
+.final-footer {
   background-color: #303084;
   color: #ffffff;
   height: 80px;
@@ -741,7 +746,7 @@
   font-family: "Lato", sans-serif;
 }
 
-.final-footer-insider{
+.final-footer-insider {
   width: 90%;
   margin: 0px auto;
   display: flex;
@@ -749,11 +754,11 @@
   align-items: center;
 }
 
-.final-footer-left{
+.final-footer-left {
   display: flex;
   gap: 10px;
 }
-.final-footer-content1{
+.final-footer-content1 {
   text-decoration: underline;
 }
 
@@ -761,24 +766,24 @@
 
 /* responsivess   */
 
-@media(max-width:695px){
-  .nav-right{
+@media (max-width: 695px) {
+  .nav-right {
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
   }
-  .nav-btn1{
+  .nav-btn1 {
     margin-top: 10px;
     display: none;
   }
   .nav-insider {
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
   }
-  .hero-text{
+  .hero-text {
     font-size: 40px;
   }
-  .hero-strong{
+  .hero-strong {
     font-size: 40px;
   }
   .hero-right-content {
@@ -788,25 +793,25 @@
   .hero-right-content .hero-coloured {
     font-size: 50px;
   }
-  .hero{
+  .hero {
     padding-top: 37%;
   }
-  .hero-top{
+  .hero-top {
     height: auto;
     gap: 40px;
     margin-bottom: 30px;
   }
-  .our-offering-header{
+  .our-offering-header {
     font-size: 30px;
     width: 100% !important;
   }
-  .about-insider{
+  .about-insider {
     height: auto;
   }
-  .about-card-top{
+  .about-card-top {
     flex-wrap: wrap;
   }
-  .offering-content-2{
+  .offering-content-2 {
     width: 100%;
   }
   .our-offering-insider {
@@ -817,71 +822,97 @@
     height: auto;
     width: auto;
   }
-  .ourvictories-header{
+  .ourvictories-header {
     font-size: 35px;
     margin-bottom: 0px;
   }
-  #ourvictoriesimg{
+  #ourvictoriesimg {
     height: 100%;
     width: 100%;
   }
-  .ourvictories-insider{
+  .ourvictories-insider {
     flex-wrap: wrap;
     padding-top: 94%;
     padding-bottom: 10%;
   }
-  .offering-insider{
+  .offering-insider {
     flex-wrap: wrap;
   }
-  .offering-header{
+  .offering-header {
     font-size: 35px;
     width: 100%;
   }
-  .offering-content-1{
+  .offering-content-1 {
     width: 100%;
   }
-  .diversify-header{
+  .diversify-header {
     font-size: 35px;
   }
-  .carousel-content{
+  .carousel-content {
     font-size: 20px;
   }
-  .offering-right-top{
+  .offering-right-top {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
   }
-  .offering-right-bottom{
+  .offering-right-bottom {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .nav-menu ul {
-    display: none;
-  }
-  .footer-top{
+
+  .footer-top {
     flex-wrap: wrap;
   }
   /* #email{
     /* right: -10px; */
-  #email{
+  #email {
     width: auto;
-    right: 0px ;
+    right: 0px;
   }
   .footer-top-right {
     font-size: 32px;
   }
-  .footer-top-left{
+  .footer-top-left {
     margin-top: 25px;
   }
-  .footer-bottom{
+  .footer-bottom {
     flex-wrap: wrap;
   }
   .footer-top-left-btn {
     right: 72px;
   }
-  .final-footer-insider{
+  .final-footer-insider {
     flex-wrap: wrap;
     justify-content: center;
   }
-}
 
+  /* hamburger */
+  #faburger {
+    display: block;
+    font-size: 30px;
+  }
+
+  #navmenu {
+    display: none;
+  }
+  #navmenu ul {
+    flex-direction: column;
+    position: absolute;
+    top: 77px;
+    gap: 20px;
+    background-color: black;
+    width: 100%;
+    right: 0;
+    text-align: center;
+  }
+  .nav-menu ul li {
+    border-bottom: 1px solid;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+  .nav-menu ul li:hover{
+    background-color: #9999ca;
+  }
+}

@@ -68,3 +68,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
   showSlide(currentIndex);
 });
+
+
+// hamburger starts 
+
+function burger(){
+  var x = document.getElementById('navmenu');
+  if(x.style.display === "block"){
+    x.style.display = "none" ;
+  }else{
+    x.style.display = "block";
+  }
+}
+
+
+
+
+// hamburger ends

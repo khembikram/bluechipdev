@@ -172,6 +172,7 @@
 .header-content {
   font-size: 17px;
   font-family: "Lato", sans-serif;
+  width: 79%;
 }
 
 .header-img {
@@ -226,6 +227,7 @@
   font-weight: 300;
   line-height: 1.7em;
   letter-spacing: 0.5px;
+  width: 38%;
 }
 
 /* acre section ends */
@@ -249,6 +251,7 @@
 .tradex-content {
   font-size: 17px;
   font-family: "Lato", sans-serif;
+  width: 80%;
 }
 
 .tradex-img {
@@ -394,3 +397,83 @@
 }
 
 /* final foooter ends */
+
+@media (max-width: 695px) {
+  /* navigation responsive */
+  .nav-right {
+    flex-wrap: wrap;
+    gap: 0px;
+  }
+  .nav-menu {
+    display: none;
+  }
+
+  .acre-content{
+    width: 100%;
+  }
+  .nav-btn1 {
+    display: none;
+  }
+  .hero-content {
+    font-size: 55px;
+  }
+  /* navigation responsive ends  */
+  .header-insider{
+    flex-direction: column;
+  }
+  .tradex-insider{
+    flex-direction: column-reverse;
+  }
+  .tradex-content{
+    width: 100%;
+  }
+  .header-content{
+    width: 100%;
+  }
+  .header-left-inner{
+    padding:0%  2%;
+    margin-bottom: 4%;
+  }
+  .tradex-left-inner{
+    padding: 0% 2%;
+    margin-bottom: 4%;
+  }
+
+
+
+
+
+
+  /* footer responsive starts  */
+  .final-footer-insider {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer-bottom {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-top-right {
+    flex-wrap: wrap;
+  }
+  #email {
+    width: auto;
+    right: 0px;
+  }
+  .footer-top {
+    flex-wrap: wrap;
+  }
+  .footer-top-right {
+    font-size: 32px;
+    width: auto;
+  }
+  .footer-top-left {
+    margin-top: 25px;
+  }
+  .footer-top-left-btn {
+    right: 72px;
+  }
+
+  /* footer responsive ends */
+}
