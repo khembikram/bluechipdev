@@ -128,6 +128,10 @@
   font-size: 17px;
 }
 
+#faburger {
+  display: none;
+}
+
 /* nav section ends */
 
 /* hero seciton starts */
@@ -408,7 +412,7 @@
     display: none;
   }
 
-  .acre-content{
+  .acre-content {
     width: 100%;
   }
   .nav-btn1 {
@@ -418,31 +422,26 @@
     font-size: 55px;
   }
   /* navigation responsive ends  */
-  .header-insider{
+  .header-insider {
     flex-direction: column;
   }
-  .tradex-insider{
+  .tradex-insider {
     flex-direction: column-reverse;
   }
-  .tradex-content{
+  .tradex-content {
     width: 100%;
   }
-  .header-content{
+  .header-content {
     width: 100%;
   }
-  .header-left-inner{
-    padding:0%  2%;
-    margin-bottom: 4%;
-  }
-  .tradex-left-inner{
+  .header-left-inner {
     padding: 0% 2%;
     margin-bottom: 4%;
   }
-
-
-
-
-
+  .tradex-left-inner {
+    padding: 0% 2%;
+    margin-bottom: 4%;
+  }
 
   /* footer responsive starts  */
   .final-footer-insider {
@@ -476,4 +475,33 @@
   }
 
   /* footer responsive ends */
+
+  /* hamburger */
+  #faburger {
+    display: block;
+    font-size: 30px;
+  }
+
+  #navmenu {
+    display: none;
+  }
+  #navmenu ul {
+    flex-direction: column;
+    position: absolute;
+    top: 77px;
+    gap: 20px;
+    background-color: black;
+    width: 100%;
+    right: 0;
+    text-align: center;
+  }
+  .nav-menu ul li {
+    border-bottom: 1px solid;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+  .nav-menu ul li:hover {
+    background-color: #9999ca;
+  }
 }

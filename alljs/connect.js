@@ -8,5 +8,16 @@ window.addEventListener("scroll", function () {
       navbar.classList.remove("navbar-scrolled");
     }
   });
+
+  // hamburger starts 
+
+function burger(){
+  var x = document.getElementById('navmenu');
+  if(x.style.display === "block"){
+    x.style.display = "none" ;
+  }else{
+    x.style.display = "block";
+  }
+}
   
   

@@ -128,6 +128,10 @@
   font-size: 17px;
 }
 
+#faburger {
+  display: none;
+}
+
 /* nav section ends */
 
 /* hero seciton starts */
@@ -496,4 +500,33 @@ textarea {
   }
 
   /* footer responsive ends */
+
+   /* hamburger */
+   #faburger {
+    display: block;
+    font-size: 30px;
+  }
+
+  #navmenu {
+    display: none;
+  }
+  #navmenu ul {
+    flex-direction: column;
+    position: absolute;
+    top: 77px;
+    gap: 20px;
+    background-color: black;
+    width: 100%;
+    right: 0;
+    text-align: center;
+  }
+  .nav-menu ul li {
+    border-bottom: 1px solid;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+  .nav-menu ul li:hover{
+    background-color: #9999ca;
+  }
 }

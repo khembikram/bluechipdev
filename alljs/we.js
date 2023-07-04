@@ -9,4 +9,15 @@ window.addEventListener("scroll", function () {
     }
   });
   
+
+  // hamburger starts 
+
+function burger(){
+  var x = document.getElementById('navmenu');
+  if(x.style.display === "block"){
+    x.style.display = "none" ;
+  }else{
+    x.style.display = "block";
+  }
+}
   
