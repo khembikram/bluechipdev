@@ -162,6 +162,7 @@
 
 .hero-right-content {
   padding-top: 10%;
+  width: 64%;
 }
 
 .hero-right-content .hero-coloured {
@@ -567,15 +568,18 @@
   font-size: 50px;
   font-weight: bold;
   color: #303084;
+  width: 60%;
 }
 .offering-content-1{
   font-style: italic;
   font-weight: bold;
   font-size: 18px;
+  width: 60%;
 }
 
 .offering-content-2{
   font-size: 18px;
+  width: 57%;
 }
 
 .offering-list{
@@ -754,3 +758,130 @@
 }
 
 /* final foooter ends */
+
+
+/* responsivess   */
+
+@media(max-width:695px){
+  .nav-right{
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  .nav-btn1{
+    margin-top: 10px;
+    display: none;
+  }
+  .nav-insider {
+    justify-content: center;
+    width: 100%;
+  }
+  .hero-text{
+    font-size: 40px;
+  }
+  .hero-strong{
+    font-size: 40px;
+  }
+  .hero-right-content {
+    padding: 0px;
+    width: 100% !important;
+  }
+  .hero-right-content .hero-coloured {
+    font-size: 50px;
+  }
+  .hero{
+    padding-top: 37%;
+  }
+  .hero-top{
+    height: auto;
+    gap: 40px;
+    margin-bottom: 30px;
+  }
+  .our-offering-header{
+    font-size: 30px;
+    width: 100% !important;
+  }
+  .about-insider{
+    height: auto;
+  }
+  .about-card-top{
+    flex-wrap: wrap;
+  }
+  .offering-content-2{
+    width: 100%;
+  }
+  .our-offering-insider {
+    flex-wrap: wrap;
+    padding: 10% 0%;
+  }
+  .our-offering-left {
+    height: auto;
+    width: auto;
+  }
+  .ourvictories-header{
+    font-size: 35px;
+    margin-bottom: 0px;
+  }
+  #ourvictoriesimg{
+    height: 100%;
+    width: 100%;
+  }
+  .ourvictories-insider{
+    flex-wrap: wrap;
+    padding-top: 94%;
+    padding-bottom: 10%;
+  }
+  .offering-insider{
+    flex-wrap: wrap;
+  }
+  .offering-header{
+    font-size: 35px;
+    width: 100%;
+  }
+  .offering-content-1{
+    width: 100%;
+  }
+  .diversify-header{
+    font-size: 35px;
+  }
+  .carousel-content{
+    font-size: 20px;
+  }
+  .offering-right-top{
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .offering-right-bottom{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .nav-menu ul {
+    display: none;
+  }
+  .footer-top{
+    flex-wrap: wrap;
+  }
+  /* #email{
+    /* right: -10px; */
+  #email{
+    width: auto;
+    right: 0px ;
+  }
+  .footer-top-right {
+    font-size: 32px;
+  }
+  .footer-top-left{
+    margin-top: 25px;
+  }
+  .footer-bottom{
+    flex-wrap: wrap;
+  }
+  .footer-top-left-btn {
+    right: 72px;
+  }
+  .final-footer-insider{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
