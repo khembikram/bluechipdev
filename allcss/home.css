@@ -112,7 +112,7 @@
 .nav-menu ul li {
   list-style: none;
 }
-.nav-menu ul li a {
+.nav-menu li a {
   font-size: 16px;
   font-weight: 600;
   text-decoration: none;
@@ -759,7 +759,6 @@
 
 /* final foooter ends */
 
-
 /* responsivess   */
 
 @media(max-width:695px){
@@ -885,3 +884,4 @@
     justify-content: center;
   }
 }
+
