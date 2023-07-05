@@ -139,15 +139,14 @@
 
 /* nav section ends */
 
-
-.body{
-  font-family: 'Times New Roman', Times, serif;
+.body {
+  font-family: "Times New Roman", Times, serif;
 }
 /* hero section starts */
 .hero {
   width: 100%;
   height: auto;
-  background: url("../allimages/hero.png");
+  /* background: url("../allimages/hero.png"); */
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -198,8 +197,16 @@
   color: aliceblue;
   border-radius: 50px;
   border: 0.1px solid #ffffff;
-  padding: 10px 20px;
+  padding: 15px 25px;
   font-size: 18px;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  box-shadow: 0 0 0 4em #ffffff inset, 0 5px 15px rgba(0, 0, 0, 0.1) inset;
+  color: #e25926;
+  transform: translateY(-5px);
+  transition: all 600ms ease;
 }
 
 .hero-bottom-text {
@@ -268,9 +275,9 @@
 }
 
 .about-card:hover {
-  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 7px 30px -10px rgba(150, 170, 180, 0.5);
   border-radius: 25px;
-  transition: 0.5s;
+  transition: all 300ms ease;
 }
 
 .about-card-header {
@@ -280,11 +287,13 @@
 
 .about-header::before {
   content: "";
-  background-image: url("../allimages/Image\ 7.png");
+  background-image: url("../allimages/floating_dots.png");
   position: absolute;
-  height: 13%;
-  width: 9%;
-  left: 18%;
+  height: 23%;
+  width: 12%;
+  left: 5%;
+  transition: transform 1200ms ease;
+  transform: translateY(-23px);
 }
 
 .about-card-body {
@@ -324,10 +333,8 @@
 .our-offering-subheader {
   text-transform: uppercase;
   color: #e25926;
-  font-size: 16px;
-  font-weight: 600;
-  font-family: "Lato", sans-serif;
-  letter-spacing: 1px;
+  font-size: 18px;
+  font-family: "Neris Thin";
 }
 
 .our-offering-header {
@@ -338,11 +345,29 @@
 
 .offering-btn1 {
   color: #ffffff;
+  border: none;
+  margin-top: 10px;
+  font-size: 18px;
   border: 0.15px solid #e25926;
-  background: #e25926;
+  background: none;
+  color: #e25926;
   border-radius: 50px;
   padding: 10px 20px;
-  font-weight: 600;
+}
+
+/* .offering-btn1:hover{
+  background-color: #e25926;
+  color: #ffffff;
+  transition: all 300ms ease;
+  transform: translateY(-3px);
+} */
+
+.offering-btn1:hover,
+.offering-btn1:focus {
+  box-shadow: inset 5em 0 0 0 #e25926, inset -5em 0 0 0 #e25926;
+  transition: all 500ms ease;
+  transform: translateY(-5px);
+  color: #f7f7f5;
 }
 
 .our-offering-left {
@@ -420,7 +445,7 @@
 }
 
 .carousel-content {
-  font-size: 35px;
+  font-size: 2.125rem;
   font-style: italic;
 }
 
@@ -430,13 +455,15 @@
 }
 
 .carousel-name {
-  font-family: "Neris Light";
+  font-family: "Neris semibold";
+  font-size: 20px;
   font-weight: 400;
   letter-spacing: 1px;
   margin-top: 35px;
 }
 .carousel-post {
   font-family: "Lato", sans-serif;
+  font-size: 15px;
 }
 
 .carousel-slide {
@@ -922,7 +949,7 @@
     padding-bottom: 10px;
     width: 100%;
   }
-  .nav-menu ul li:hover{
+  .nav-menu ul li:hover {
     background-color: #9999ca;
   }
 }

@@ -9,32 +9,28 @@ window.addEventListener("scroll", function () {
   }
 });
 
+// carousel
 
-
-
-// carousel 
-
-
-document.addEventListener('DOMContentLoaded', function() {
-  var carouselSlide = document.querySelector('.carousel-slide');
-  var carouselSlides = document.querySelectorAll('.carousel-slide .slide');
-  var bullets = document.querySelectorAll('.bullet');
+document.addEventListener("DOMContentLoaded", function () {
+  var carouselSlide = document.querySelector(".carousel-slide");
+  var carouselSlides = document.querySelectorAll(".carousel-slide .slide");
+  var bullets = document.querySelectorAll(".bullet");
 
   var currentIndex = 0;
   var slideInterval = setInterval(goToNextSlide, 3000);
 
   function showSlide(index) {
-    carouselSlides.forEach(function(slide) {
-      slide.classList.remove('active');
+    carouselSlides.forEach(function (slide) {
+      slide.classList.remove("active");
     });
 
-    carouselSlides[index].classList.add('active');
+    carouselSlides[index].classList.add("active");
 
-    bullets.forEach(function(bullet) {
-      bullet.classList.remove('active');
+    bullets.forEach(function (bullet) {
+      bullet.classList.remove("active");
     });
 
-    bullets[index].classList.add('active');
+    bullets[index].classList.add("active");
   }
 
   function goToSlide(index) {
@@ -58,8 +54,8 @@ document.addEventListener('DOMContentLoaded', function() {
     showSlide(currentIndex);
   }
 
-  bullets.forEach(function(bullet, index) {
-    bullet.addEventListener('click', function() {
+  bullets.forEach(function (bullet, index) {
+    bullet.addEventListener("click", function () {
       clearInterval(slideInterval);
       goToSlide(index);
       slideInterval = setInterval(goToNextSlide, 3000);
@@ -69,19 +65,42 @@ document.addEventListener('DOMContentLoaded', function() {
   showSlide(currentIndex);
 });
 
+// hamburger starts
 
-// hamburger starts 
-
-function burger(){
-  var x = document.getElementById('navmenu');
-  if(x.style.display === "block"){
-    x.style.display = "none" ;
-  }else{
+function burger() {
+  var x = document.getElementById("navmenu");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
     x.style.display = "block";
   }
 }
 
-
-
-
 // hamburger ends
+
+// background changer
+
+document.addEventListener("DOMContentLoaded", function () {
+  const backgroundImageUrls = [
+    "../allimages/hero.png",
+    "../allimages/trade.jpg",
+  ];
+
+  const backgroundElement = document.getElementById("hero");
+  let currentImageIndex = 0;
+
+  function changeBackgroundImage() {
+    backgroundElement.style.backgroundImage = `url(${backgroundImageUrls[currentImageIndex]})`;
+
+    backgroundElement.style.transition = "background-position 1s";
+    backgroundElement.style.backgroundPosition = "0% 50%";
+
+    backgroundElement.style.transition = "background-position";
+    backgroundElement.style.backgroundPosition = "100%";
+
+    setTimeout(() => {
+      currentImageIndex = (currentImageIndex + 1) % backgroundImageUrls.length;
+    }, 9000);
+  }
+  setInterval(changeBackgroundImage, 10000);
+});
