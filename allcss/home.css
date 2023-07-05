@@ -72,6 +72,7 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  /* font-family: 'Times New Roman', Times, serif; */
 }
 
 /* nav section starts */
@@ -83,9 +84,12 @@
 }
 
 .navbar-scrolled {
-  background-color: rgba(255, 255, 255, 0.5);
+  /* background-color: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(10px);
-  color: black;
+  color: black; */
+  background-color: rgb(22 22 23 / 80%);
+  backdrop-filter: blur(20px);
+  z-index: 1;
 }
 
 .nav-insider {
@@ -135,6 +139,10 @@
 
 /* nav section ends */
 
+
+.body{
+  font-family: 'Times New Roman', Times, serif;
+}
 /* hero section starts */
 .hero {
   width: 100%;
@@ -171,7 +179,6 @@
 .hero-right-content .hero-coloured {
   color: #e25926;
   font-size: 73px;
-  /* font-family: "Neris Thin"; */
   font-style: italic;
   font-weight: 600;
 }
@@ -878,6 +885,7 @@
   }
   .footer-bottom {
     flex-wrap: wrap;
+    flex-direction: column;
   }
   .footer-top-left-btn {
     right: 72px;
@@ -899,9 +907,11 @@
   #navmenu ul {
     flex-direction: column;
     position: absolute;
-    top: 77px;
+    top: 80px;
     gap: 20px;
-    background-color: black;
+    /* background-color: black; */
+    background-color: rgb(22 22 23 / 80%);
+    backdrop-filter: blur(20px);
     width: 100%;
     right: 0;
     text-align: center;

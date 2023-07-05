@@ -83,11 +83,11 @@
 }
 
 .navbar-scrolled {
-  /* background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(10px);
-  color: black; */
-  background-color: rgb(22 22 23 / 80%);
-  backdrop-filter: blur(20px);
+  color: black;
+  /* background-color: rgb(22 22 23 / 80%);
+  backdrop-filter: blur(20px); */
 }
 
 .nav-insider {
@@ -137,7 +137,7 @@
 
 /* hero seciton starts */
 .hero {
-  background: url("../allimages/Group\ 84.png");
+  background: url("../allimages/Group\ 95.png");
   background-size: cover;
   height: 60vh;
   display: flex;
@@ -157,89 +157,81 @@
 }
 /* hero section ends */
 
-/* about us starts */
+/* header section starts */
+.header-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  flex: 1;
+}
 
-.aboutus {
-  /* height: 80vh; */
-  padding: 10% 0%;
+.header-right {
+  flex: 1;
+}
+.header-header {
+  font-size: 36px;
+  font-weight: bold;
+  color: #303084;
+  width: 82%;
+}
+.header-content {
+  font-size: 17px;
+  font-family: "Lato", sans-serif;
+  width: 79%;
+}
+
+.header-img {
+  height: 100%;
+  width: 100%;
+}
+
+.header-insider {
+  display: flex;
+}
+
+.header-icon-left {
+  height: 100px;
+}
+.header-left-inner {
+  padding-left: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+/* header section ends */
+
+/* acre section starts */
+
+.acre {
+  background: url("../allimages/movie.png") center;
+  background-size: cover;
+  color: #ffffff;
   display: flex;
   align-items: center;
-  background-color: #f7f7f5;
+  height: 90vh;
 }
-.aboutus-insider {
+
+.acre-insider {
   width: 90%;
   margin: 0px auto;
   display: flex;
-  flex-direction: column;
+  justify-content: end;
+  margin-bottom: 90px;
+  margin-right: 135px;
 }
-
-.aboutus-top {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 10%;
-}
-.aboutus-left {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
-.aboutus-header {
-  color: #303084;
-  font-size: 50px;
+.acre-left-header {
+  font-size: 40px;
   font-weight: bold;
-}
-
-.aboutus-body {
-  font-size: 18px;
-  font-family: "Lato", sans-serif;
-  width: 67%;
-}
-.aboutbtn {
-  background-color: transparent;
-  border: 2px solid #e25926;
-  padding: 15px 20px;
-  color: #e25926;
-  font-weight: 600;
-  letter-spacing: 1px;
-}
-
-.aboutimg {
-  height: 400px;
-}
-
-.aboutusimg {
-  height: 80px;
-}
-
-.aboutus-card-header {
-  font-size: 20px;
   color: #303084;
-  font-family: "Lato", sans-serif;
-  font-weight: 800;
+}
+.acre-left {
+  width: 49%;
 }
 
-.aboutus-card-content {
-  font-size: 14px;
-  font-family: "Lato", sans-serif;
-}
-
-.aboutusbottom-card1 {
-  border-top: 1px solid #e25926;
-  width: 380px;
-  padding-top: 3%;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.aboutus-bottom {
-  display: flex;
-  justify-content: space-around;
-}
-
-/* about us ends */
-/* trust section starts */
-.trust-left {
+/* acre section ends */
+/* tradex section starts */
+.tradex-left {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -247,132 +239,62 @@
   flex: 1;
 }
 
-.trust-right {
+.tradex-right {
   flex: 1;
 }
-.trust-header {
-  font-size: 50px;
+.tradex-header {
+  font-size: 40px;
   font-weight: bold;
   color: #303084;
 }
-.trust-content {
+.tradex-content {
   font-size: 17px;
-  font-weight: bold;
-  font-style: italic;
-  color: #7a7a7a;
-  width: 62%;
+  font-family: "Lato", sans-serif;
+  width: 80%;
 }
 
-.trust-img {
+.tradex-img {
   height: 100%;
   width: 100%;
 }
 
-.turst-insider {
+.tradex-insider {
   display: flex;
 }
 
-.trust-icon-left {
+.tradex-icon-left {
   height: 100px;
 }
-.trust-left-inner {
+.tradex-left-inner {
   padding-left: 10%;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-/* trust section ends */
+/* tradex section ends */
+/* final banner starts */
 
-/* empathy section starts */
-.empathy-left {
+.finalbanner {
+  background: url("../allimages/Group\ 96.png");
+  background-size: cover;
+  height: 40vh;
   display: flex;
-  flex-direction: column;
-  gap: 20px;
+  align-items: center;
   justify-content: center;
-  flex: 1;
 }
 
-.empathy-right {
-  flex: 1;
+.finalbanner-insider {
+  width: 90%;
+  margin: 0px auto;
 }
-.empathy-header {
-  font-size: 50px;
+.finalbanner-content {
+  font-size: 40px;
   font-weight: bold;
-  color: #303084;
-}
-.empathy-content {
-  font-size: 17px;
-  font-weight: bold;
-  font-style: italic;
-  color: #7a7a7a;
-  width: 67%;
+  text-align: center;
+  color: #ffffff;
 }
 
-.empathy-img {
-  height: 100%;
-  width: 100%;
-}
-
-.empathy-insider {
-  display: flex;
-}
-
-.empathy-icon-left {
-  height: 100px;
-}
-
-.empathy-left-inner {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding-left: 10%;
-}
-/* empathy section ends */
-/* exellence section starts */
-.exellence-left {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  justify-content: center;
-  flex: 1;
-}
-
-.exellence-right {
-  flex: 1;
-}
-.exellence-header {
-  font-size: 50px;
-  font-weight: bold;
-  color: #303084;
-}
-.exellence-content {
-  font-size: 17px;
-  font-weight: bold;
-  font-style: italic;
-  color: #7a7a7a;
-  width: 62%;
-}
-
-.exellence-img {
-  height: 100%;
-  width: 100%;
-}
-
-.exellence-insider {
-  display: flex;
-}
-
-.exellence-icon-left {
-  height: 100px;
-}
-.exellence-left-inner {
-  padding-left: 10%;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-/* exellence section ends */
+/* final banner ends */
 
 /* footer starts */
 .footer {
@@ -498,8 +420,6 @@
 
 /* final foooter ends */
 
-/* responsiveness */
-
 @media (max-width: 695px) {
   /* navigation responsive */
   .nav-right {
@@ -510,6 +430,9 @@
     display: none;
   }
 
+  .acre-content {
+    width: 100%;
+  }
   .nav-btn1 {
     display: none;
   }
@@ -517,54 +440,39 @@
     font-size: 55px;
   }
   /* navigation responsive ends  */
+  .header-insider {
+    flex-direction: column;
+  }
 
-  .aboutimg {
-    height: 100%;
+  .header-header {
     width: 100%;
   }
-  .aboutus-body {
-    width: 100%;
-  }
-  .aboutus-top {
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  .aboutus-bottom {
-    flex-wrap: wrap;
-    gap: 15px;
-  }
-  .turst-insider {
-    flex-direction: column;
-    gap: 20px;
-  }
-  .trust-content {
-    width: 100%;
-  }
-  .trust-left-inner {
-    padding-left: 5%;
-  }
-  .empathy-insider {
+  .tradex-insider {
     flex-direction: column-reverse;
-    gap: 20px;
   }
-  .empathy-content {
+  .tradex-content {
     width: 100%;
   }
-  .empathy-left-inner {
-    padding-left: 5%;
-  }
-  .exellence-header {
-    font-size: 45px;
-  }
-  .exellence-content {
+  .header-content {
     width: 100%;
   }
-  .exellence-insider {
-    flex-direction: column;
-    gap: 20px;
+  .header-left-inner {
+    padding: 0% 2%;
+    margin-bottom: 4%;
   }
-  .exellence-left-inner {
-    padding-left: 5%;
+  .tradex-left-inner {
+    padding: 0% 2%;
+    margin-bottom: 4%;
+  }
+
+  .acre-left-header{
+    font-size: 25px;
+  }
+  .acre-left{
+    width: 79%;
+  }
+  .acre-insider{
+    margin-right: 0px;
   }
 
   /* footer responsive starts  */
@@ -615,11 +523,11 @@
     top: 80px;
     gap: 20px;
     /* background-color: black; */
-    background-color: rgb(22 22 23 / 80%);
-    backdrop-filter: blur(20px);
     width: 100%;
     right: 0;
     text-align: center;
+    background-color: rgb(22 22 23 / 80%);
+    backdrop-filter: blur(20px);
   }
   .nav-menu ul li {
     border-bottom: 1px solid;
