@@ -513,7 +513,36 @@
     <!-- final footer ends -->
 
 
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
     <script src="./alljs/home.js"></script>
+    <script>
+        // background changer
+
+        $(document).ready(function () {
+            const backgroundImageUrls = [
+                "./allimages/hero.png",
+                "./allimages/trade.jpg",
+            ];
+
+            const backgroundElement = $("#hero");
+            let currentImageIndex = 0;
+
+            function changeBackgroundImage() {
+                backgroundElement.css("background-image", `url(${backgroundImageUrls[currentImageIndex]})`);
+                backgroundElement.css("transition", "background-position 1s");
+                backgroundElement.css("background-position", "0% 50%");
+
+                setTimeout(() => {
+                    backgroundElement.css("transition", "background-position");
+                    backgroundElement.css("background-position", "100%");
+                    currentImageIndex = (currentImageIndex + 1) % backgroundImageUrls.length;
+                }, 9000);
+            }
+
+            setInterval(changeBackgroundImage, 10000);
+        });
+    </script>
 </body>
 
 </html>

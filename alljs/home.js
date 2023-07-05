@@ -77,30 +77,3 @@ function burger() {
 }
 
 // hamburger ends
-
-// background changer
-
-document.addEventListener("DOMContentLoaded", function () {
-  const backgroundImageUrls = [
-    "../allimages/hero.png",
-    "../allimages/trade.jpg",
-  ];
-
-  const backgroundElement = document.getElementById("hero");
-  let currentImageIndex = 0;
-
-  function changeBackgroundImage() {
-    backgroundElement.style.backgroundImage = `url(${backgroundImageUrls[currentImageIndex]})`;
-
-    backgroundElement.style.transition = "background-position 1s";
-    backgroundElement.style.backgroundPosition = "0% 50%";
-
-    backgroundElement.style.transition = "background-position";
-    backgroundElement.style.backgroundPosition = "100%";
-
-    setTimeout(() => {
-      currentImageIndex = (currentImageIndex + 1) % backgroundImageUrls.length;
-    }, 9000);
-  }
-  setInterval(changeBackgroundImage, 10000);
-});
