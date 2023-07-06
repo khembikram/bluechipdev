@@ -148,10 +148,26 @@
   font-family: "Times New Roman", Times, serif;
 }
 /* hero section starts */
+
+.carousel {
+  z-index: -1;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 0%;
+  bottom: 1.25rem;
+  left: 0%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: start;
+  font-family: "Times New Roman", Times, serif;
+}
+
 .hero {
   width: 100%;
   height: auto;
-  /* background: url("../allimages/hero.png"); */
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -455,7 +471,7 @@
 /* diversify setting ends */
 
 /* testimonial carousel starts */
-.carousel {
+/* .testislide {
   width: 90%;
   background-color: #e25926;
   margin: 0 auto;
@@ -466,29 +482,29 @@
   top: 400px;
 }
 
-.carousel-content {
+.testislide-content {
   font-size: 2.125rem;
   font-style: italic;
 }
 
-#carousel-quotation {
+#testislide-quotation {
   font-size: 70px;
   margin: 1% 0%;
 }
 
-.carousel-name {
+.testislide-name {
   font-family: "Neris semibold";
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 1px;
   margin-top: 35px;
 }
-.carousel-post {
+.testislide-post {
   font-family: "Lato", sans-serif;
   font-size: 15px;
 }
 
-.carousel-slide {
+.testislide-slide {
   position: relative;
   overflow: hidden;
   height: 300px;
@@ -544,7 +560,7 @@
 .prev-button:hover,
 .next-button:hover {
   background-color: #2980b9;
-}
+}  */
 
 /* testimonial carousel ends */
 
@@ -658,9 +674,9 @@
   transform: translateY(5px);
 }
 
- .card-btn:hover>.cardbtnanchor{
+.card-btn:hover > .cardbtnanchor {
   color: #ffffff;
- }
+}
 
 .offering-content-2 {
   font-size: 18px;
