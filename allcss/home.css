@@ -117,11 +117,16 @@
   list-style: none;
 }
 .nav-menu li a {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   text-decoration: none;
   color: #ffffff;
   text-decoration: none;
+}
+
+.nav-menu li a:hover {
+  color: #e25926;
+  transition: all 300ms ease;
 }
 
 .nav-btn1 {
@@ -350,23 +355,24 @@
   font-size: 18px;
   border: 0.15px solid #e25926;
   background: none;
-  color: #e25926;
   border-radius: 50px;
   padding: 10px 20px;
 }
 
-/* .offering-btn1:hover{
-  background-color: #e25926;
-  color: #ffffff;
-  transition: all 300ms ease;
-  transform: translateY(-3px);
-} */
+.offering-btn1 a {
+  color: #e25926;
+  text-decoration: none;
+}
 
 .offering-btn1:hover,
 .offering-btn1:focus {
   box-shadow: inset 5em 0 0 0 #e25926, inset -5em 0 0 0 #e25926;
   transition: all 500ms ease;
   transform: translateY(-5px);
+  color: #f7f7f5;
+}
+
+.offering-btn1:hover > .offeringanchor {
   color: #f7f7f5;
 }
 
@@ -426,8 +432,24 @@
   border: 0.15px solid #ffffff;
   background: transparent;
   border-radius: 50px;
+}
+
+.diversify-btn1 a {
   color: #ffffff;
   font-size: 14px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.diversify-btn1:hover,
+.diversify:focus {
+  box-shadow: inset 15em 0 0 0 #f7f7f5;
+  transition: all 500ms ease;
+  transform: translateY(-5px);
+}
+
+.diversify-btn1:hover > .diversifyanchor {
+  color: #e25926;
 }
 
 /* diversify setting ends */
@@ -614,6 +636,32 @@
   width: 60%;
 }
 
+.card-btn {
+  border: none;
+  margin-top: 10px;
+  font-size: 18px;
+  border: 0.15px solid #e25926;
+  background: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+
+.card-btn a {
+  color: #e25926;
+  text-decoration: none;
+}
+
+.card-btn:hover,
+.card-btn:focus {
+  box-shadow: inset 11em 0 0 0 #e25926;
+  transition: all 300ms ease;
+  transform: translateY(5px);
+}
+
+ .card-btn:hover>.cardbtnanchor{
+  color: #ffffff;
+ }
+
 .offering-content-2 {
   font-size: 18px;
   width: 57%;
@@ -644,6 +692,17 @@
   justify-content: center;
   width: 220px;
   height: 300px;
+}
+
+.card1:hover {
+  background-color: #e25926;
+  color: #303084 !important;
+  transition: all 300ms ease;
+  transform: translateY(-3px);
+}
+
+.card1:hover > .card-foot {
+  color: #ffffff;
 }
 
 .offering-card-img {

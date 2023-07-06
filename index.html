@@ -185,7 +185,8 @@
                         Scoping for opportunities <br>is ingrained in our DNA
                     </div>
                     <div class="our-offering-btn">
-                        <button type="submit" class="offering-btn1">Our Offerings</button>
+                        <button type="submit" class="offering-btn1"><a href="./ouroffering.html"
+                                class="offeringanchor">Our Offerings</a></button>
                     </div>
                 </div>
             </div>
@@ -208,7 +209,9 @@
                     </div>
                     <div class="diversify-btn">
                         <button type="submit" class="diversify-btn1">
-                            Our Victories
+                            <a href="./victories.html" class="diversifyanchor">
+                                Our Victories
+                            </a>
                         </button>
                     </div>
                 </div>
@@ -325,7 +328,7 @@
         <!-- offering section starts -->
         <div class="offering">
             <div class="offering-insider">
-                <div class="offeing-left">
+                <div class="offeing-left" id="myElement">
                     <div class="offering-subheader">
                         OUR OFFERING
                     </div>
@@ -353,7 +356,8 @@
                         </ul>
                     </div>
                     <div class="offering-btn">
-                        <button type="submit" class="offering-btn1">Take the next step</button>
+                        <button type="submit" class="card-btn"><a href="./contact.html" class="cardbtnanchor">Take the
+                                next step</a></button>
                     </div>
                 </div>
                 <div class="offering-right">
@@ -521,8 +525,10 @@
 
         $(document).ready(function () {
             const backgroundImageUrls = [
-                "./allimages/hero.png",
+                "./allimages/hero.jpg",
                 "./allimages/trade.jpg",
+                "./allimages/tradex.jpg",
+                "./allimages/chis gyale.jpg",
             ];
 
             const backgroundElement = $("#hero");

@@ -115,10 +115,14 @@
   list-style: none;
 }
 .nav-menu ul li a {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   color: #ffffff;
   text-decoration: none;
+}
+.nav-menu li a:hover{
+  color: #e25926;
+  transition: all 300ms ease;
 }
 
 .nav-btn1 {
@@ -201,6 +205,13 @@
   color: #e25926;
   font-weight: 600;
   letter-spacing: 1px;
+}
+
+.aboutbtn:hover,.aboutbtn:focus{
+  box-shadow: inset 11em 0 0 0 #e25926;
+  color: #ffffff;
+  transition: all 300ms ease;
+  transform: translateY(-3px);
 }
 
 .aboutimg {

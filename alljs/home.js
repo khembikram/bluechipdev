@@ -77,3 +77,33 @@ function burger() {
 }
 
 // hamburger ends
+
+// Get the desired element
+const myElement = document.getElementById('myElement');
+
+// Function to check if element is in view
+function isInView(element) {
+  const rect = element.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
+}
+
+// Function to handle scroll event
+function handleScroll() {
+  if (isInView(myElement)) {
+    // Element is in view, add transition class after 5 seconds
+    setTimeout(() => {
+      myElement.classList.add('transition-class');
+    }, 5000);
+  } else {
+    // Element is out of view, remove transition class
+    myElement.classList.remove('transition-class');
+  }
+}
+
+// Add scroll event listener
+window.addEventListener('scroll', handleScroll);

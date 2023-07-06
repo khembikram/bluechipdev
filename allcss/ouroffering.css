@@ -113,10 +113,15 @@
   list-style: none;
 }
 .nav-menu ul li a {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   color: #ffffff;
   text-decoration: none;
+}
+
+.nav-menu li a:hover{
+  color: #e25926;
+  transition: all 300ms ease;
 }
 
 .nav-btn1 {
