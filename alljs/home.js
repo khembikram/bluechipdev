@@ -50,4 +50,87 @@ window.addEventListener("scroll", function () {
   }
 });
 
+
+window.addEventListener("scroll", function () {
+  var element = document.getElementById("offerright");
+  var position = element.getBoundingClientRect();
+  var windowHeight = window.innerHeight;
+
+  // When the element is in the viewport
+  if (position.top >= 0 && position.bottom <= windowHeight) {
+    element.classList.add("our-offering-right");
+  } else {
+    element.classList.remove("our-offering-right");
+  }
+});
+
+window.addEventListener("scroll", function () {
+  var element = document.getElementById("offerleft");
+  var position = element.getBoundingClientRect();
+  var windowHeight = window.innerHeight;
+
+  // When the element is in the viewport
+  if (position.top >= 0 && position.bottom <= windowHeight) {
+    element.classList.add("our-offering-left");
+  } else {
+    element.classList.remove("our-offering-left");
+  }
+});
+
+
+
+window.addEventListener("scroll", function () {
+  var element = document.getElementById("diverserotate");
+  var position = element.getBoundingClientRect();
+  var windowHeight = window.innerHeight;
+
+  // When the element is in the viewport
+  if (position.top >= 0 && position.bottom <= windowHeight) {
+    element.classList.add("diversify-header");
+  } else {
+    element.classList.remove("diversify-header");
+  }
+});
+
+window.addEventListener("scroll", function () {
+  var element = document.getElementById("myElement");
+  var position = element.getBoundingClientRect();
+  var windowHeight = window.innerHeight;
+
+  // When the element is in the viewport
+  if (position.top >= 0 && position.bottom <= windowHeight) {
+    element.classList.add("offeing-left");
+  } else {
+    element.classList.remove("offeing-left");
+  }
+});
+
+
+
+window.addEventListener("scroll", function () {
+  var element = document.getElementById("offright");
+  var position = element.getBoundingClientRect();
+  var windowHeight = window.innerHeight;
+
+  // When the element is in the viewport
+  if (position.top >= 0 && position.bottom <= windowHeight) {
+    element.classList.add("offering-right");
+  } else {
+    element.classList.remove("offering-right");
+  }
+});
+
+
+window.addEventListener("scroll", function () {
+  var element = document.getElementById("cardflip");
+  var position = element.getBoundingClientRect();
+  var windowHeight = window.innerHeight;
+
+  // When the element is in the viewport
+  if (position.top >= 0 && position.bottom <= windowHeight) {
+    element.classList.add("card1");
+  } else {
+    element.classList.remove("card1");
+  }
+});
 // scroll animation ends
