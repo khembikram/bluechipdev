@@ -9,62 +9,6 @@ window.addEventListener("scroll", function () {
   }
 });
 
-// carousel
-
-document.addEventListener("DOMContentLoaded", function () {
-  var carouselSlide = document.querySelector(".testislide-slide");
-  var carouselSlides = document.querySelectorAll(".testislide-slide .slide");
-  var bullets = document.querySelectorAll(".bullet");
-
-  var currentIndex = 0;
-  var slideInterval = setInterval(goToNextSlide, 3000);
-
-  function showSlide(index) {
-    carouselSlides.forEach(function (slide) {
-      slide.classList.remove("active");
-    });
-
-    carouselSlides[index].classList.add("active");
-
-    bullets.forEach(function (bullet) {
-      bullet.classList.remove("active");
-    });
-
-    bullets[index].classList.add("active");
-  }
-
-  function goToSlide(index) {
-    currentIndex = index;
-    showSlide(currentIndex);
-  }
-
-  function goToPrevSlide() {
-    currentIndex--;
-    if (currentIndex < 0) {
-      currentIndex = testislide.length - 1;
-    }
-    showSlide(currentIndex);
-  }
-
-  function goToNextSlide() {
-    currentIndex++;
-    if (currentIndex >= testislide.length) {
-      currentIndex = 0;
-    }
-    showSlide(currentIndex);
-  }
-
-  bullets.forEach(function (bullet, index) {
-    bullet.addEventListener("click", function () {
-      clearInterval(slideInterval);
-      goToSlide(index);
-      slideInterval = setInterval(goToNextSlide, 3000);
-    });
-  });
-
-  showSlide(currentIndex);
-});
-
 // hamburger starts
 
 function burger() {
@@ -77,3 +21,33 @@ function burger() {
 }
 
 // hamburger ends
+
+// scroll animation starts
+
+window.addEventListener("scroll", function () {
+  var element = document.getElementById("abthead");
+  var position = element.getBoundingClientRect();
+  var windowHeight = window.innerHeight;
+
+  // When the element is in the viewport
+  if (position.top >= 0 && position.bottom <= windowHeight) {
+    element.classList.add("about-header");
+  } else {
+    element.classList.remove("about-header");
+  }
+});
+
+window.addEventListener("scroll", function () {
+  var element = document.getElementById("herocontent");
+  var position = element.getBoundingClientRect();
+  var windowHeight = window.innerHeight;
+
+  // When the element is in the viewport
+  if (position.top >= 0 && position.bottom <= windowHeight) {
+    element.classList.add("hero-insider");
+  } else {
+    element.classList.remove("hero-insider");
+  }
+});
+
+// scroll animation ends

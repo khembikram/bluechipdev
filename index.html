@@ -56,9 +56,9 @@
     <div id="carouselExampleIndicators" class="carousel slide" data-mdb-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="./allimages/sonu sood.jpg" class="d-block w-100" alt="Wild Landscape" />
+                <img src="./allimages/sonu sood.jpg" class="d-block w-100" id="hero-img" alt="Wild Landscape" />
                 <!-- hero section starts  -->
-                <div class="carousel-caption d-block w-100" id="hero">
+                <div class="carousel-caption d-block d-md-block w-100" id="hero">
                     <div class="hero-insider">
                         <div class="hero-top">
                             <div class="hero-right-content">
@@ -108,7 +108,7 @@
                 <img src="./allimages/trade.jpg" class="d-block w-100" alt="Camera" />
                 <!-- hero section starts  -->
                 <div class="carousel-caption d-block w-100" id="hero">
-                    <div class="hero-insider">
+                    <div class="hero-insider" id="herocontent">
                         <div class="hero-top">
                             <div class="hero-right-content">
                                 <span class="hero-coloured">A dedicate old</span><br>
@@ -219,7 +219,7 @@
                     <div class="about-subheader">
                         ABOUT US
                     </div>
-                    <div class="about-header">
+                    <div class="about-header" id="abthead">
                         Our Diversified Business
                     </div>
                 </div>
@@ -336,84 +336,70 @@
 
         <!-- testimonial carousel starts -->
 
-
-        <!-- <div class="testislide">
-            <div class="testislide-slide">
-                <div class="slide">
-                    <div class="testislide-insider">
-                        <div class="testislide-header">
-                            <i class="fa-sharp fa-solid fa-quote-right" id="testislide-quotation"></i>
-                        </div>
-                        <div class="testislide-content">
-                            I am honored to represent as the brand ambassdor for BlueChip Group<br> of Companies, an
-                            esteemed
-                            organization
-                            dedicated to empowering<br> individuals and enabling their financial growth and
-                            independence.
-                        </div>
-                        <div class="testislide-names">
-                            <div class="testislide-name">
-                                SONU SOOD
-                            </div>
-                            <div class="testislide-post">
-                                Brand Ambassador
-                            </div>
+        <div id="carouselExampleControls" class="carousel slide text-center carousel-dark" data-mdb-ride="carousel">
+            <div class="carousel-inner" id="carousel-testimonail">
+                <div class="carousel-item active">
+                    <i class="fa-solid fa-quote-right" id="testi-quote"></i>
+                    <!-- <i class="fa-sharp fa-solid fa-quote-right" ></i> -->
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-20">
+                            <p class="text-white" id="testi-text">
+                                I am honored to represent as the brand ambassdor for BlueChip Group<br> of Companies, an
+                                esteemed
+                                organization
+                                dedicated to empowering<br> individuals and enabling their financial growth and
+                                independence.
+                            </p>
+                            <h5 class="mb-1" id="name-id">SONU SOOD</h5>
+                            <p id="post-id">Brand Ambassador</p>
                         </div>
                     </div>
                 </div>
-                <div class="slide">
-                    <div class="caoursel-insider">
-                        <div class="testislide-header">
-                            <i class="fa-sharp fa-solid fa-quote-right" id="testislide-quotation"></i>
-                        </div>
-                        <div class="testislide-content">
-                            I am honored to represent as the brand ambassdor for BlueChip Group<br> of Companies, an
-                            esteemed
-                            organization
-                            dedicated to empowering<br> individuals and enabling their financial growth and
-                            independence.
-                        </div>
-                        <div class="testislide-names">
-                            <div class="testislide-name">
-                                SONU SOOD2
-                            </div>
-                            <div class="testislide-post">
-                                Brand Ambassador
-                            </div>
+                <div class="carousel-item">
+                    <i class="fa-solid fa-quote-right" id="testi-quote"></i>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-20">
+                            <p class="text-white" id="testi-text">
+                                I am honored to represent as the brand ambassdor for BlueChip Group<br> of Companies, an
+                                esteemed
+                                organization
+                                dedicated to empowering<br> individuals and enabling their financial growth and
+                                independence.
+                            </p>
+                            <h5 class="mb-1" id="name-id">Chris Gayle</h5>
+                            <p id="post-id">Brand Ambassador</p>
                         </div>
                     </div>
                 </div>
-                <div class="slide">
-                    <div class="testislide-insider">
-                        <div class="testislide-header">
-                            <i class="fa-sharp fa-solid fa-quote-right" id="testislide-quotation"></i>
-                        </div>
-                        <div class="testislide-content">
-                            I am honored to represent as the brand ambassdor for BlueChip Group<br> of Companies, an
-                            esteemed
-                            organization
-                            dedicated to empowering<br> individuals and enabling their financial growth and
-                            independence.
-                        </div>
-                        <div class="testislide-names">
-                            <div class="testislide-name">
-                                SONU SOOD3
-                            </div>
-                            <div class="testislide-post">
-                                Brand Ambassador
-                            </div>
+                <div class="carousel-item">
+                    <i class="fa-solid fa-quote-right" id="testi-quote"></i>
+                    <!-- <i class="fa-sharp fa-solid fa-quote-right" ></i> -->
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-20">
+                            <p class="text-white" id="testi-text">
+                                I am honored to represent as the brand ambassdor for BlueChip Group<br> of Companies, an
+                                esteemed
+                                organization
+                                dedicated to empowering<br> individuals and enabling their financial growth and
+                                independence.
+                            </p>
+                            <h5 class="mb-1" id="name-id">SONU SOOD</h5>
+                            <p id="post-id">Brand Ambassador</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="bullet-container">
-                <span class="bullet"></span>
-                <span class="bullet"></span>
-                <span class="bullet"></span>
-            </div>
-        </div> -->
-
-
+            <button class="carousel-control-prev " type="button" data-mdb-target="#carouselExampleControls"
+                data-mdb-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleControls"
+                data-mdb-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
         <!-- testimonial testislide ends -->
 
         <!-- our victories section starts -->
