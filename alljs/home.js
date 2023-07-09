@@ -89,18 +89,6 @@ window.addEventListener("scroll", function () {
   }
 });
 
-window.addEventListener("scroll", function () {
-  var element = document.getElementById("myElement");
-  var position = element.getBoundingClientRect();
-  var windowHeight = window.innerHeight;
-
-  // When the element is in the viewport
-  if (position.top >= 0 && position.bottom <= windowHeight) {
-    element.classList.add("offeing-left");
-  } else {
-    element.classList.remove("offeing-left");
-  }
-});
 
 window.addEventListener("scroll", function () {
   var element = document.getElementById("offright");

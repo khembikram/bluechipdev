@@ -268,6 +268,57 @@ body {
   align-items: center;
 }
 
+@media (max-width: 1700px) {
+  .carousel-caption {
+    height: auto;
+  }
+  .hero-bottom {
+    margin-top: 0vh !important;
+  }
+}
+
+@media (max-width: 1220px) {
+  .nav-menu {
+    display: none;
+  }
+  .carousel-caption{
+    top: 10vh !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero-right-content{
+    width: 100%;
+  }
+  #offerleft{
+    width: 75% !important;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1058px) {
+  .hero-bottom{
+    display: none;
+  }
+}
+
+@media (max-width: 1419px) {
+  .carousel-caption {
+    top: 15vh;
+  }
+  .hero-coloured {
+    font-size: 3.75rem !important;
+  }
+  .hero-text {
+    font-size: 2.75rem !important;
+  }
+  .hero-strong {
+    font-size: 3.5rem !important;
+  }
+  .diversify{
+    height: auto !important;
+  }
+}
+
 @media (min-width: 1700px) {
   .carousel-caption {
     height: 0vh !important;
@@ -357,6 +408,7 @@ body {
 
 .about-card-top {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -373,6 +425,7 @@ body {
   margin: 0px auto;
   padding: 5% 0%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -441,8 +494,7 @@ body {
   color: #f7f7f5;
 }
 
-
-#offerleft{
+#offerleft {
   width: 40%;
 }
 .our-offering-left {
@@ -495,9 +547,6 @@ body {
   0% {
     transform: translateY(50px);
   }
-  100% {
-    transform: translateY(-50px);
-  }
 }
 
 .diversify-content1 {
@@ -509,7 +558,7 @@ body {
 
 .diversify-btn1 {
   padding: 12px 52px;
-  font-family: 'Neris SemiBold';
+  font-family: "Neris SemiBold";
   margin-top: 20px;
   border: 0.15px solid #ffffff;
   background: transparent;
@@ -597,6 +646,7 @@ body {
 
 .ourvictories-insider {
   display: flex;
+  flex-wrap: wrap;
   width: 90%;
   margin: 0px auto;
   padding-top: 35%;
@@ -612,8 +662,8 @@ body {
   animation: victoryright 3s;
 }
 
-@keyframes  victoryright{
-  0%{
+@keyframes victoryright {
+  0% {
     transform: translateX(10vw);
   }
 }
@@ -661,6 +711,11 @@ body {
   padding: 10% 0%;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#myElement{
+  width: 60% !important;
 }
 .offeing-left {
   display: flex;
@@ -798,7 +853,7 @@ body {
 
 @keyframes offrtl {
   0% {
-    transform: translateX(10vw);
+    transform: translateX(5vw);
   }
 }
 
