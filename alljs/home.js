@@ -50,7 +50,6 @@ window.addEventListener("scroll", function () {
   }
 });
 
-
 window.addEventListener("scroll", function () {
   var element = document.getElementById("offerright");
   var position = element.getBoundingClientRect();
@@ -76,8 +75,6 @@ window.addEventListener("scroll", function () {
     element.classList.remove("our-offering-left");
   }
 });
-
-
 
 window.addEventListener("scroll", function () {
   var element = document.getElementById("diverserotate");
@@ -105,8 +102,6 @@ window.addEventListener("scroll", function () {
   }
 });
 
-
-
 window.addEventListener("scroll", function () {
   var element = document.getElementById("offright");
   var position = element.getBoundingClientRect();
@@ -120,7 +115,6 @@ window.addEventListener("scroll", function () {
   }
 });
 
-
 window.addEventListener("scroll", function () {
   var element = document.getElementById("cardflip");
   var position = element.getBoundingClientRect();
@@ -133,4 +127,18 @@ window.addEventListener("scroll", function () {
     element.classList.remove("card1");
   }
 });
+
+window.addEventListener("scroll", function () {
+  var element = document.getElementById("victrt");
+  var position = element.getBoundingClientRect();
+  var windowHeight = window.innerHeight;
+
+  // When the element is in the viewport
+  if (position.top >= 0 && position.bottom <= windowHeight) {
+    element.classList.add("ourvictories-right");
+  } else {
+    element.classList.remove("ourvictories-right");
+  }
+});
 // scroll animation ends
+
