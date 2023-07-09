@@ -721,20 +721,15 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  animation: rtl 5s;
 }
-@keyframes rtl {
-  0% {
-    transform: translateX(-10vw);
-  }
-}
-
 .offering-subheader {
   font-size: 18px;
   color: #e25926;
   font-family: "Neris Thin";
   font-weight: 600;
 }
+
+
 #offering-icons {
   color: #e25926;
 }
@@ -1161,3 +1156,23 @@ body {
     background-color: #9999ca;
   }
 }
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+
+.show {
+  filter: blur(0);
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* @media(prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+} */
