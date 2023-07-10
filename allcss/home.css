@@ -183,12 +183,12 @@ body {
   height: 100%;
   animation: scrolldown 3s;
 }
-
+/* 
 @keyframes scrolldown {
   0% {
-    transform: translatex(10vw);
+    transform: translateX(-10px);
   }
-}
+} */
 
 .hero-top {
   display: flex;

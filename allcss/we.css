@@ -194,9 +194,9 @@
 }
 
 .aboutus-body {
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Lato", sans-serif;
-  width: 67%;
+  width: 80%;
 }
 .aboutbtn {
   background-color: transparent;
@@ -215,7 +215,7 @@
 }
 
 .aboutimg {
-  height: 400px;
+  height: 450px;
 }
 
 .aboutusimg {
