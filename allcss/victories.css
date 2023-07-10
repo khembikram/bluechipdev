@@ -121,7 +121,7 @@
   text-decoration: none;
 }
 
-.nav-menu li a:hover{
+.nav-menu li a:hover {
   color: #e25926;
   transition: all 300ms ease;
 }
@@ -470,13 +470,13 @@
     margin-bottom: 4%;
   }
 
-  .acre-left-header{
+  .acre-left-header {
     font-size: 25px;
   }
-  .acre-left{
+  .acre-left {
     width: 79%;
   }
-  .acre-insider{
+  .acre-insider {
     margin-right: 0px;
   }
 
@@ -543,4 +543,25 @@
   .nav-menu ul li:hover {
     background-color: #9999ca;
   }
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show {
+  filter: blur(0);
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.header-content{
+  transition-delay: 200ms;
+}
+
+.tradex-content{
+  transition-delay: 200ms;
 }

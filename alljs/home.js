@@ -142,3 +142,19 @@ const observer = new IntersectionObserver((entries) => {
 
 const hiddenElements = document.querySelectorAll(".hidden");
 hiddenElements.forEach((el) => observer.observe(el));
+
+
+
+// Get the element to animate
+window.addEventListener("scroll", function () {
+  var element = document.getElementById("roborotate");
+  var position = element.getBoundingClientRect();
+  var windowHeight = window.innerHeight;
+
+  // When the element is in the viewport
+  if (position.top >= 0 && position.bottom <= windowHeight) {
+    element.classList.add("robotimg");
+  } else {
+    element.classList.remove("robotimg");
+  }
+});

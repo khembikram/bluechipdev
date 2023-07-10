@@ -203,7 +203,7 @@ body {
 }
 
 .hero-right-content {
-  width: 64%;
+  width: 70%;
 }
 
 .hero-right-content .hero-coloured {
@@ -217,6 +217,7 @@ body {
   font-size: 3.75rem;
   color: #ffffff;
   font-family: "Neris Thin";
+  line-height: 70px;
 }
 .hero-strong {
   color: #ffffff;
@@ -281,22 +282,22 @@ body {
   .nav-menu {
     display: none;
   }
-  .carousel-caption{
+  .carousel-caption {
     top: 10vh !important;
   }
 }
 
 @media (max-width: 900px) {
-  .hero-right-content{
+  .hero-right-content {
     width: 100%;
   }
-  #offerleft{
+  #offerleft {
     width: 75% !important;
   }
 }
 
 @media (min-width: 700px) and (max-width: 1058px) {
-  .hero-bottom{
+  .hero-bottom {
     display: none;
   }
 }
@@ -314,7 +315,7 @@ body {
   .hero-strong {
     font-size: 3.5rem !important;
   }
-  .diversify{
+  .diversify {
     height: auto !important;
   }
 }
@@ -714,7 +715,7 @@ body {
   flex-wrap: wrap;
 }
 
-#myElement{
+#myElement {
   width: 60% !important;
 }
 .offeing-left {
@@ -728,7 +729,6 @@ body {
   font-family: "Neris Thin";
   font-weight: 600;
 }
-
 
 #offering-icons {
   color: #e25926;
@@ -802,12 +802,13 @@ body {
   justify-content: center;
   width: 220px;
   height: 300px;
-  animation: flip 3s;
+  animation: flip 4s linear;
 }
 
 @keyframes flip {
   0% {
-    transform: rotateY(180deg);
+    transform: rotateY(360deg);
+    transform: translateY(50px) to(0px);
   }
 }
 
@@ -1164,31 +1165,29 @@ body {
   transition: all 1s;
 }
 
-
 .show {
   filter: blur(0);
   transform: translateX(0);
   opacity: 1;
 }
 
-.about-card:nth-child(2){
+.about-card:nth-child(2) {
   transition-delay: 200ms;
 }
 
-.about-card:nth-child(3){
+.about-card:nth-child(3) {
   transition-delay: 400ms;
 }
 
-
-.hero-bottom-img:nth-child(2){
+.hero-bottom-img:nth-child(2) {
   transition-delay: 200ms;
 }
 
-.hero-bottom-img:nth-child(3){
+.hero-bottom-img:nth-child(3) {
   transition-delay: 400ms;
 }
 
-.hero-bottom-img:nth-child(4){
+.hero-bottom-img:nth-child(4) {
   transition-delay: 600ms;
 }
 /* @media(prefers-reduced-motion) {
@@ -1196,3 +1195,36 @@ body {
     transition: none;
   }
 } */
+
+/* robot starts  */
+.robotimg {
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  z-index: 999;
+  bottom: 70px;
+  position: fixed;
+  right: 90px;
+  animation: 10s robotrot linear infinite;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* .robotimg:nth-child(1) {
+  animation: up 6s linear;
+  @keyframes up {
+    transform: rotate(360deg);
+    translateY(50px)to(0px);
+  }
+} */
+
+@keyframes robotrot {
+  0% {
+    transform: rotateY(360deg);
+    transform: translateY(50px) to(0px);
+  }
+  /* 100% {
+    transform: translateX(50px)to(0px);
+  } */
+}
+
+/* robot ends */
