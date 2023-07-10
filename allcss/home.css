@@ -1171,6 +1171,26 @@ body {
   opacity: 1;
 }
 
+.about-card:nth-child(2){
+  transition-delay: 200ms;
+}
+
+.about-card:nth-child(3){
+  transition-delay: 400ms;
+}
+
+
+.hero-bottom-img:nth-child(2){
+  transition-delay: 200ms;
+}
+
+.hero-bottom-img:nth-child(3){
+  transition-delay: 400ms;
+}
+
+.hero-bottom-img:nth-child(4){
+  transition-delay: 600ms;
+}
 /* @media(prefers-reduced-motion) {
   .hidden {
     transition: none;

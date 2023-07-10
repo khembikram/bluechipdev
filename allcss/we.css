@@ -120,7 +120,7 @@
   color: #ffffff;
   text-decoration: none;
 }
-.nav-menu li a:hover{
+.nav-menu li a:hover {
   color: #e25926;
   transition: all 300ms ease;
 }
@@ -207,7 +207,8 @@
   letter-spacing: 1px;
 }
 
-.aboutbtn:hover,.aboutbtn:focus{
+.aboutbtn:hover,
+.aboutbtn:focus {
   box-shadow: inset 11em 0 0 0 #e25926;
   color: #ffffff;
   transition: all 300ms ease;
@@ -642,3 +643,26 @@
     background-color: #9999ca;
   }
 }
+
+/* page load animation  */
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show {
+  filter: blur(0);
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.aboutusbottom-card1:nth-child(2){
+  transition-delay: 200ms;
+}
+.aboutusbottom-card1:nth-child(3){
+  transition-delay: 400ms;
+}
+
+/* page load animation ends */
