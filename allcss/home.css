@@ -164,7 +164,7 @@ body {
 .carousel-caption {
   position: absolute;
   left: 1vw;
-  top: 20vh;
+  top: 35vh;
   color: #fff;
   text-align: start;
   font-family: "Times New Roman", Times, serif;
@@ -197,24 +197,26 @@ body {
 }
 
 .hero-right-content {
-  width: 61%;
+  width: 63%;
+  line-height: 20px;
 }
 
 .hero-right-content .hero-coloured {
   color: #e25926;
-  font-size: 3.75rem;
-  /* font-style: italic; */
+  font-size: 2.75rem;
+  font-family: Neris Thin;
 }
 
 .hero-text {
-  font-size: 3.75rem;
+  font-size: 2.55rem;
   color: #ffffff;
-  /* font-family: Neris Thin; */
-  line-height: 70px;
+  font-family: Neris Thin;
+  line-height: 60px;
 }
 .hero-strong {
   color: #ffffff;
-  font-size: 3.75rem;
+  font-family: Neris Thin;
+  font-size: 2.55rem;
 }
 .hero-btn {
   background-color: transparent;
