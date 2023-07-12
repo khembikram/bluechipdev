@@ -83,15 +83,18 @@ body {
 .nav {
   width: 100%;
   max-width: 1700px;
-  color: aliceblue;
   position: fixed;
   letter-spacing: 1px;
 }
 
 .navbar-scrolled {
-  background-color: rgb(22 22 23 / 80%);
+  background-color: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(20px);
   z-index: 1;
+}
+
+.navbar-scrolled .nav-menu li a {
+  color: rgb(22 22 23 / 80%);
 }
 
 .nav-insider {
@@ -121,7 +124,6 @@ body {
 .nav-menu li a {
   font-size: 18px;
   font-weight: 600;
-  text-decoration: none;
   color: #ffffff;
   text-decoration: none;
 }
@@ -155,7 +157,7 @@ body {
   z-index: -1;
 }
 
-#carousel-inner-banner{
+#carousel-inner-banner {
   height: 100vh !important;
 }
 
@@ -298,7 +300,7 @@ body {
 }
 
 .aboutus-headers {
-  text-align: center; 
+  text-align: center;
 }
 
 .about-subheader {
@@ -322,16 +324,21 @@ body {
   }
 }
 
-.aboutus-img-main{
+.aboutus-logo1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.aboutus-img-main {
   height: 150px;
   filter: grayscale(100%);
 }
-.aboutus-img-main:hover{
-  filter:brightness(100%);
+.aboutus-img-main:hover {
+  filter: brightness(100%);
 }
 
 .aboutus-body {
-  margin-top: 5%;
+  margin-top: 3%;
 }
 .about-card {
   display: flex;
@@ -505,13 +512,6 @@ body {
 .diversify-header {
   font-size: 50px;
   font-weight: 400;
-  animation: rotate 3s;
-}
-
-@keyframes rotate {
-  0% {
-    transform: translateY(50px);
-  }
 }
 
 .diversify-content1 {
@@ -605,66 +605,13 @@ body {
 /* testimonial carousel ends */
 
 /* our victories starts */
-.ourvictories {
-  background-color: #f7f7f5;
-}
-
 .ourvictories-insider {
   display: flex;
   flex-wrap: wrap;
   width: 90%;
   margin: 0px auto;
   padding-top: 35%;
-  padding-bottom: 5%;
   gap: 5%;
-}
-
-.ourvictories-right {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 20px;
-  animation: victoryright 3s;
-}
-
-@keyframes victoryright {
-  0% {
-    transform: translateX(10vw);
-  }
-}
-
-.ourvictories-subheader {
-  font-size: 15px;
-  font-weight: 800;
-  font-family: "Neris Thin";
-  color: #e25926;
-}
-
-.ourvictories-header {
-  font-size: 45px;
-  font-weight: 600;
-  color: #303084;
-  margin-bottom: 20px;
-}
-
-.ourvictories-btn1 {
-  color: #e25926;
-  border-radius: 50px;
-  border: 2px solid #e25926;
-  padding: 10px 25px;
-  background: transparent;
-  margin-top: 20px;
-  font-size: 15px;
-  font-weight: 600;
-}
-
-#ourvictoriesimg {
-  height: 400px;
-  width: 450px;
-}
-
-.ourvictories-left {
-  animation: scrollright 3s;
 }
 
 /* our victories ends */
@@ -673,7 +620,7 @@ body {
 .offering-insider {
   width: 90%;
   margin: 0px auto;
-  padding: 10% 0%;
+  padding: 5% 0%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -766,21 +713,12 @@ body {
   justify-content: center;
   width: 220px;
   height: 300px;
-  animation: flip 4s linear;
-}
-
-@keyframes flip {
-  0% {
-    transform: rotateY(360deg);
-    transform: translateY(50px) to(0px);
-  }
 }
 
 .card1:hover {
   background-color: #e25926;
   color: #303084 !important;
   transition: all 1s ease;
-  transform: rotateY(180deg);
 }
 
 .card1:hover > .card-foot {
@@ -807,15 +745,6 @@ body {
   gap: 20px;
 }
 
-.offering-right {
-  animation: offrtl 3s;
-}
-
-@keyframes offrtl {
-  0% {
-    transform: translateX(5vw);
-  }
-}
 
 .offering-right-cards {
   display: flex;
@@ -850,7 +779,7 @@ body {
 }
 
 #subscribe {
-  height: 80px;
+  height: 50px;
 }
 
 .footer-top-left {

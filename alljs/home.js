@@ -50,18 +50,7 @@ window.addEventListener("scroll", function () {
   }
 });
 
-window.addEventListener("scroll", function () {
-  var element = document.getElementById("offerright");
-  var position = element.getBoundingClientRect();
-  var windowHeight = window.innerHeight;
 
-  // When the element is in the viewport
-  if (position.top >= 0 && position.bottom <= windowHeight) {
-    element.classList.add("our-offering-right");
-  } else {
-    element.classList.remove("our-offering-right");
-  }
-});
 
 window.addEventListener("scroll", function () {
   var element = document.getElementById("offerleft");
@@ -76,18 +65,6 @@ window.addEventListener("scroll", function () {
   }
 });
 
-window.addEventListener("scroll", function () {
-  var element = document.getElementById("diverserotate");
-  var position = element.getBoundingClientRect();
-  var windowHeight = window.innerHeight;
-
-  // When the element is in the viewport
-  if (position.top >= 0 && position.bottom <= windowHeight) {
-    element.classList.add("diversify-header");
-  } else {
-    element.classList.remove("diversify-header");
-  }
-});
 
 window.addEventListener("scroll", function () {
   var element = document.getElementById("offright");
@@ -102,18 +79,6 @@ window.addEventListener("scroll", function () {
   }
 });
 
-window.addEventListener("scroll", function () {
-  var element = document.getElementById("cardflip");
-  var position = element.getBoundingClientRect();
-  var windowHeight = window.innerHeight;
-
-  // When the element is in the viewport
-  if (position.top >= 0 && position.bottom <= windowHeight) {
-    element.classList.add("card1");
-  } else {
-    element.classList.remove("card1");
-  }
-});
 
 window.addEventListener("scroll", function () {
   var element = document.getElementById("victrt");

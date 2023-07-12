@@ -658,10 +658,10 @@
   opacity: 1;
 }
 
-.aboutusbottom-card1:nth-child(2){
+.aboutusbottom-card1:nth-child(2) {
   transition-delay: 200ms;
 }
-.aboutusbottom-card1:nth-child(3){
+.aboutusbottom-card1:nth-child(3) {
   transition-delay: 400ms;
 }
 
