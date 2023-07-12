@@ -155,12 +155,15 @@ body {
   z-index: -1;
 }
 
+#carousel-inner-banner{
+  height: 100vh !important;
+}
+
 .carousel-caption {
   position: absolute;
   left: 1vw;
   top: 20vh;
   color: #fff;
-  height: 120vh;
   text-align: start;
   font-family: "Times New Roman", Times, serif;
 }
@@ -183,23 +186,12 @@ body {
   height: 100%;
   animation: scrolldown 3s;
 }
-/* 
-@keyframes scrolldown {
-  0% {
-    transform: translateX(-10px);
-  }
-} */
 
 .hero-top {
   display: flex;
   flex-direction: column;
   gap: 5vh;
   justify-content: center;
-  margin-bottom: 5vw;
-}
-
-.hero-bottom {
-  margin-top: 20vh;
 }
 
 .hero-right-content {
@@ -233,36 +225,6 @@ body {
   font-size: 18px;
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
-  box-shadow: 0 0 0 4em #ffffff inset, 0 5px 15px rgba(0, 0, 0, 0.1) inset;
-  color: #e25926;
-  transform: translateY(-5px);
-  transition: all 600ms ease;
-}
-
-.hero-bottom-text {
-  color: #ffffff;
-  text-align: center;
-  font-family: "Lato", sans-serif;
-  font-size: 20px;
-}
-
-.hero-bottom-values {
-  display: flex;
-}
-
-.hero-bottom-img {
-  width: 90%;
-  object-fit: contain;
-}
-
-.hero-line {
-  width: 41%;
-  flex-grow: 1;
-  border: none;
-  margin: 0 0.5rem;
-}
 .hero-btn-designs {
   display: flex;
   justify-content: space-between;
@@ -272,9 +234,6 @@ body {
 @media (max-width: 1700px) {
   .carousel-caption {
     height: auto;
-  }
-  .hero-bottom {
-    margin-top: 0vh !important;
   }
 }
 
@@ -324,9 +283,6 @@ body {
   .carousel-caption {
     height: 0vh !important;
   }
-  .hero-bottom {
-    margin-top: 10vh !important;
-  }
   .about-insider {
     height: 50vh !important;
   }
@@ -338,12 +294,11 @@ body {
 .about-insider {
   width: 90%;
   margin: 0px auto;
-  height: 80vh;
-  margin-top: 10%;
+  padding: 10% 0;
 }
 
 .aboutus-headers {
-  text-align: center;
+  text-align: center; 
 }
 
 .about-subheader {
@@ -366,6 +321,15 @@ body {
     transform: translatex(50px);
   }
 }
+
+.aboutus-img-main{
+  height: 150px;
+  filter: grayscale(100%);
+}
+.aboutus-img-main:hover{
+  filter:brightness(100%);
+}
+
 .aboutus-body {
   margin-top: 5%;
 }
@@ -1021,7 +985,7 @@ body {
     width: 100% !important;
   }
   .hero-insider {
-    padding: 30% 0%;
+    padding-top: 30% 0%;
   }
 
   .w-100 {
@@ -1205,26 +1169,6 @@ body {
   bottom: 70px;
   position: fixed;
   right: 90px;
-  animation: 10s robotrot linear infinite;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
-}
-
-/* .robotimg:nth-child(1) {
-  animation: up 6s linear;
-  @keyframes up {
-    transform: rotate(360deg);
-    translateY(50px)to(0px);
-  }
-} */
-
-@keyframes robotrot {
-  0% {
-    transform: rotateY(360deg);
-    transform: translateY(50px) to(0px);
-  }
-  /* 100% {
-    transform: translateX(50px)to(0px);
-  } */
 }
 
 /* robot ends */
