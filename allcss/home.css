@@ -197,26 +197,24 @@ body {
 }
 
 .hero-right-content {
-  width: 70%;
+  width: 61%;
 }
 
 .hero-right-content .hero-coloured {
   color: #e25926;
-  font-size: 4.563rem;
-  font-style: italic;
-  font-weight: 600;
+  font-size: 3.75rem;
+  /* font-style: italic; */
 }
 
 .hero-text {
   font-size: 3.75rem;
   color: #ffffff;
-  font-family: "Neris Thin";
+  /* font-family: Neris Thin; */
   line-height: 70px;
 }
 .hero-strong {
   color: #ffffff;
-  font-size: 4.5rem;
-  font-style: italic;
+  font-size: 3.75rem;
 }
 .hero-btn {
   background-color: transparent;
