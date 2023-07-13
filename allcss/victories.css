@@ -80,6 +80,7 @@
   color: aliceblue;
   position: fixed;
   letter-spacing: 1px;
+  z-index: 1;
 }
 
 .navbar-scrolled {
