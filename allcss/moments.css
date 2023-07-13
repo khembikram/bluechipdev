@@ -433,3 +433,22 @@
 .momentimg:nth-child(3){
   transition-delay: 600ms;
 }
+
+
+/* robot starts  */
+.robotimg {
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  z-index: 999;
+  bottom: 70px;
+  position: fixed;
+  right: 90px;
+}
+
+.robotimg:hover{
+  transform: scale(1.2);
+  transition: all 300ms;
+}
+
+/* robot ends */
