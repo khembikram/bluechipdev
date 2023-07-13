@@ -90,7 +90,7 @@ body {
 .navbar-scrolled {
   background-color: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(20px);
-  z-index: 1;
+  z-index: 2;
 }
 
 .navbar-scrolled .nav-menu li a {
@@ -556,7 +556,7 @@ body {
 /* testimonial carousel starts */
 
 #carouselExampleControls {
-  z-index: 999;
+  z-index: 1;
 }
 
 #testi-quote {
@@ -576,6 +576,7 @@ body {
   background-color: #e25926;
   margin: 0px auto;
   padding: 5% 0%;
+  z-index: 1;
 }
 
 #carouselExampleControls {
@@ -1101,6 +1102,11 @@ body {
   bottom: 70px;
   position: fixed;
   right: 90px;
+}
+
+.robotimg:hover{
+  transform: scale(1.2);
+  transition: all 300ms;
 }
 
 /* robot ends */

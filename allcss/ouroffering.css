@@ -89,6 +89,10 @@
   color: black;
 }
 
+.navbar-scrolled .nav-menu li a{
+  color: #000000;
+}
+
 .nav-insider {
   height: 80px;
   width: 90%;
@@ -273,36 +277,51 @@
 /* acre section starts */
 
 .acre {
-  background: url("../allimages/Group\ 90.png") center;
   background-size: cover;
   color: #ffffff;
   display: flex;
   align-items: center;
-  height: 90vh;
 }
 
 .acre-insider {
-  padding: 5% 0%;
-  width: 90%;
-  margin: 0px auto;
+  margin: 0px 0px  0px auto;
+  display: flex;
 }
+
 .acre-left-header {
   font-size: 42px;
   font-weight: bold;
+  color: #303084;
 }
+
 .acre-left {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  justify-content: center;
+  flex: 1;
 }
 
+.acre-insider-left{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+
+.ancre-image{
+  height: 100%;
+  width: 100%;
+}
 .acre-content {
   font-family: "Lato", sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 1.7em;
-  letter-spacing: 0.5px;
-  width: 38%;
+  font-size: 18px;
+  color: #000000;
+}
+
+.acre-right{
+  flex: 1;
 }
 
 /* acre section ends */
@@ -590,10 +609,10 @@
   opacity: 1;
 }
 
-.header-content{
+.header-content {
   transition-delay: 200ms;
 }
 
-.tradex-content{
+.tradex-content {
   transition-delay: 200ms;
 }
