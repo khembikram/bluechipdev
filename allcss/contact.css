@@ -122,7 +122,7 @@
   color: #ffffff;
   text-decoration: none;
 }
-.nav-menu li a:hover{
+.nav-menu li a:hover {
   color: #e25926;
   transition: all 300ms ease;
 }
@@ -392,7 +392,7 @@ textarea {
 
 /* footer ends */
 
-.merge{
+.merge {
   display: flex;
   flex-direction: column;
 }
@@ -445,10 +445,9 @@ textarea {
     font-size: 55px;
   }
   /* navigation responsive ends  */
-  .contact-form-insider{
+  .contact-form-insider {
     flex-wrap: wrap;
   }
-
 
   /* footer responsive starts  */
   .final-footer-insider {
@@ -460,41 +459,41 @@ textarea {
     flex-direction: column;
     gap: 20px;
   }
-  .contact-form-right-header{
+  .contact-form-right-header {
     width: 100%;
   }
-  .contact-form-content{
+  .contact-form-content {
     width: 100%;
   }
   .footer-top-right {
     flex-wrap: wrap;
   }
-  .detail-insider{
+  .detail-insider {
     flex-wrap: wrap;
     flex-direction: column;
     gap: 20px;
   }
-  .name_number{
+  .name_number {
     flex-direction: column;
     width: 100%;
   }
-  form{
+  form {
     margin: 10% 0%;
   }
-  input{
+  input {
     width: 100%;
   }
-  #email1{
+  #email1 {
     width: 100%;
   }
-  textarea{
+  textarea {
     width: 100%;
   }
-  #submit{
+  #submit {
     width: 100%;
   }
 
-  .contact-form{
+  .contact-form {
     height: auto;
   }
   #email {
@@ -517,8 +516,8 @@ textarea {
 
   /* footer responsive ends */
 
-   /* hamburger */
-   #faburger {
+  /* hamburger */
+  #faburger {
     display: block;
     font-size: 30px;
   }
@@ -531,7 +530,7 @@ textarea {
     position: absolute;
     top: 77px;
     gap: 20px;
-    background-color: black;
+    background: rgba(255, 255, 255, 0.5);
     width: 100%;
     right: 0;
     text-align: center;
@@ -542,8 +541,13 @@ textarea {
     padding-bottom: 10px;
     width: 100%;
   }
-  .nav-menu ul li:hover{
+  .nav-menu ul li:hover {
     background-color: #9999ca;
+  }
+  .robotimg {
+    right: 18px !important;
+    height: 100px !important;
+    width: 100px !important;
   }
 }
 
@@ -560,7 +564,6 @@ textarea {
   opacity: 1;
 }
 
-
 /* robot starts  */
 .robotimg {
   height: 120px;
@@ -572,7 +575,7 @@ textarea {
   right: 90px;
 }
 
-.robotimg:hover{
+.robotimg:hover {
   transform: scale(1.2);
   transition: all 300ms;
 }

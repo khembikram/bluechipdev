@@ -25,34 +25,6 @@ function burger() {
 // scroll animation starts
 
 window.addEventListener("scroll", function () {
-  var element = document.getElementById("abthead");
-  var position = element.getBoundingClientRect();
-  var windowHeight = window.innerHeight;
-
-  // When the element is in the viewport
-  if (position.top >= 0 && position.bottom <= windowHeight) {
-    element.classList.add("about-header");
-  } else {
-    element.classList.remove("about-header");
-  }
-});
-
-window.addEventListener("scroll", function () {
-  var element = document.getElementById("herocontent");
-  var position = element.getBoundingClientRect();
-  var windowHeight = window.innerHeight;
-
-  // When the element is in the viewport
-  if (position.top >= 0 && position.bottom <= windowHeight) {
-    element.classList.add("hero-insider");
-  } else {
-    element.classList.remove("hero-insider");
-  }
-});
-
-
-
-window.addEventListener("scroll", function () {
   var element = document.getElementById("offerleft");
   var position = element.getBoundingClientRect();
   var windowHeight = window.innerHeight;

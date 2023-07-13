@@ -511,6 +511,16 @@
   .hero-content {
     font-size: 55px;
   }
+
+
+  .ancre-image{
+    height: 100% !important;
+    width: 100% !important;
+  }
+  .acre-insider{
+    padding: 15% 0%;
+    flex-direction: column-reverse;
+  }
   /* navigation responsive ends  */
   .header-insider {
     flex-direction: column;
@@ -580,7 +590,7 @@
     position: absolute;
     top: 77px;
     gap: 20px;
-    background-color: black;
+    background: rgba(255, 255, 255, 0.5);
     width: 100%;
     right: 0;
     text-align: center;
@@ -593,6 +603,17 @@
   }
   .nav-menu ul li:hover {
     background-color: #9999ca;
+  }
+  
+  #ourvictoriesimg{
+    height: 100% !important;
+    width: 100% !important;
+  }
+
+  .robotimg {
+    right: 18px !important;
+    height: 100px !important;
+    width: 100px !important;
   }
 }
 

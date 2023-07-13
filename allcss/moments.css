@@ -409,6 +409,11 @@
   .nav-menu ul li:hover {
     background-color: #9999ca;
   }
+  .robotimg {
+    right: 18px !important;
+    height: 100px !important;
+    width: 100px !important;
+  }
 }
 
 
