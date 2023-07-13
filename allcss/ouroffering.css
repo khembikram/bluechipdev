@@ -80,6 +80,7 @@
   color: aliceblue;
   position: fixed;
   letter-spacing: 1px;
+  z-index: 1;
 }
 
 .navbar-scrolled {
@@ -239,7 +240,7 @@
   flex: 1;
 }
 .header-header {
-  font-size: 50px;
+  font-size: 42px;
   font-weight: bold;
   color: #303084;
 }
@@ -286,7 +287,7 @@
   margin: 0px auto;
 }
 .acre-left-header {
-  font-size: 50px;
+  font-size: 42px;
   font-weight: bold;
 }
 .acre-left {
@@ -373,7 +374,7 @@
 }
 
 #subscribe {
-  height: 80px;
+  height: 50px;
 }
 
 .footer-top-left {
