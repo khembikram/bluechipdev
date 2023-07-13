@@ -86,7 +86,7 @@
 .navbar-scrolled {
   background-color: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(10px);
-  color: black; 
+  color: black;
 }
 
 .navbar-scrolled .nav-menu li a {
@@ -280,9 +280,9 @@
 .trust-content {
   font-size: 17px;
   font-weight: bold;
-  font-style: italic;
+  font-family: "Lato", sans-serif;
   color: #7a7a7a;
-  width: 62%;
+  width: 75%;
 }
 
 .trust-img {
@@ -325,7 +325,7 @@
 .empathy-content {
   font-size: 17px;
   font-weight: bold;
-  font-style: italic;
+  font-family: "Lato", sans-serif;
   color: #7a7a7a;
   width: 67%;
 }
@@ -370,9 +370,9 @@
 .exellence-content {
   font-size: 17px;
   font-weight: bold;
-  font-style: italic;
+  font-family: "Lato", sans-serif;
   color: #7a7a7a;
-  width: 62%;
+  width: 75%;
 }
 
 .exellence-img {

@@ -220,6 +220,7 @@ textarea {
   border: 1px solid #dedede;
   background-color: #f7f7f5;
   font-family: "Lato", sans-serif;
+  width: 100% !important;
 }
 
 #email1 {
